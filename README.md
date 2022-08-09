@@ -1,5 +1,5 @@
 # skywater-130nm-examples
-SkyWater 130 nm process design examples
+Akira Tsuchiya
 
 OpenMPW (SkyWater 130 nm) 用のサンプルです．
 https://note.com/akira_tsuchiya に作成した解説記事用のファイルなので
