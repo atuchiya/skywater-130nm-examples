@@ -5,7 +5,7 @@ LIBRARIES=/headless/.klayout/libraries
 KLAYOUT_TECH=/headless/.klayout/tech/sky130A
 LIB_REF=/foss/pdk/sky130A/libs.ref
 
-# copy GDS files as libraries
+# copy GDS files to libraries
 if [ ! -e ${LIBRARIES} ]; then
 	mkdir ${LIBRARIES}
 	cp ${LIB_REF}/sky130_fd_pr/gds/sky130_fd_pr.gds ${LIBRARIES}/
