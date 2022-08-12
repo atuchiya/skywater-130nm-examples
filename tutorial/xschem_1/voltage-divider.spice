@@ -1,0 +1,13 @@
+** sch_path: /foss/designs/tutorial/xschem_1/voltage-divider.sch
+**.subckt voltage-divider
+V1 net1 GND 1
+R2 out GND 100 m=1
+R1 out net1 100 m=1
+**** begin user architecture code
+
+.dc V1 0 5 0.1
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end
