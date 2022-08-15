@@ -1,5 +1,7 @@
-# 抵抗分圧器のDC解析
+# XSCHEMの使い方 1 ： シミュレーションの流れ
+https://note.com/akira_tsuchiya/n/nb1aefe086773
 
+抵抗分圧回路のDC解析
 - voltage-divider.sch : schematicファイル
 - voltage-divider.spice : SPICEネットリスト
 - result_wrdata.txt : wrdata コマンドで書き出した結果
